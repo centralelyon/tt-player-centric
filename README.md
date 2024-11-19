@@ -21,6 +21,7 @@ https://github.com/centralelyon/tt-mmpose/blob/main/position_camera.py
 - Ça permet d’obtenir les paramètres de la caméra
 
 - Utiliser la fonction “calculer_position_3d_pieds()”
+- 
 https://github.com/centralelyon/tt-dev/blob/main/ui/utils_annotation.py 
 
 - Créer le fichier de position avec “creation_csv_position_joueur_grace_pieds()”
