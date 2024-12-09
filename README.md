@@ -22,20 +22,6 @@ To generate pose estimation on a table tennis point video:
 
 This function create a csv file with all players positions and with a tracking provided
 
-You need to use create_json_camera() to create camera's parameters json (function in utils.py) 
-  - Params:
-    - name_output_csv
-    - focale length (mm)
-    - optical center (tuple)
-    - distorsion_k1
-    - distorsion_k2
-    - distorsion_k3
-    - position (x,y,z)
-    - rotation (x,y,z) (in degrees)
-
-(you can use slovepnp or cameracalibrate function from opencv to compute parameters using the table as reference)
-
-
 ### 3. Calibrate camera
 If you we don't know intrisec camera parameters, we can estimate them with OpenCv functions such as `slovepnp()` or `calibrateCamera()`. These functions can be used directly inside blender with https://rtstudios.gumroad.com/l/camera_pnpoint 
 To estimate these parameters, we can use 6 known points from the table
