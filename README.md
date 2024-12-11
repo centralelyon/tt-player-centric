@@ -34,7 +34,7 @@ To create the video we need more annotated data. We need to annotate more inform
 We provided an exemple with all necessary files to create the video. All this are in folder exemple.
 To generate video
 `python render_image.py`
-<img src="images/video3D.png" alt="3D video" width="1100">
+<img src="images/video3D.jpg" alt="3D video" width="1100">
 
 ## 5. Create csv with new referentiel
 To create the csv with coordonates in the new referentiel we need to use `create_csv_new_ref()` from [utils.py](https://github.com/centralelyon/tt-player-centric/blob/main/utils.py)
