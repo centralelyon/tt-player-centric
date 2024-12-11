@@ -14,7 +14,7 @@ To create this scene, we used the API of Blender bpy. We provided a script to cr
 ### 2. Pose estimation
 To estimate player positions we use position of players' feet by using pose estimation with mmpose 
 To generate pose estimation on a table tennis point video:  
-- Use `[lancer_mmpose_sur_video()](https://github.com/centralelyon/tt-player-centric/blob/3b3e517444c42e92b13dd31e52f08efebbe53428/test_mmpose_inference.py#L7)` from `test_mmpose_inference.py`
+- Use `lancer_mmpose_sur_video()` from [test_mmpose_inference.py](https://github.com/centralelyon/tt-player-centric/blob/main/test_mmpose_inference.py)
   - Params:
     - video_path
     - output_csv
@@ -37,7 +37,7 @@ To generate video
 <img src="images/video3D.png" alt="3D video" width="1100">
 
 ## 5. Create csv with new referentiel
-To create the csv with coordonates in the new referentiel we need to use `create_csv_new_ref()` from `utils.py`
+To create the csv with coordonates in the new referentiel we need to use `create_csv_new_ref()` from [utils.py](https://github.com/centralelyon/tt-player-centric/blob/main/utils.py)
 exemple:
 `create_csv_new_ref("exemple/set_1_point_8_annotation_enrichi.csv","exemple/set_1_point_8_position_ordonne.csv")`
 
